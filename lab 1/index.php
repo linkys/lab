@@ -1,7 +1,7 @@
 <?php header('Content-Type: text/html; charset=utf-8'); // задаем правильную кодировку ?>
 
 <?php 
-    $handle = file('./napr.txt'); //записываем поочередно строки в массив
+    $handle = file('./napr.txt', FILE_IGNORE_NEW_LINES); //записываем поочередно строки в массив
     sort($handle); // сортировка масива
 ?>
 
