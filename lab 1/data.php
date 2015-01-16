@@ -27,11 +27,16 @@ header('Location: index.php');
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style type="text/css">
+        table, td { border: solid 1px #f60; }
+        td { padding: 5px; text-align: center; }
+        td:hover { background: #f60; color: #fff; }
+        h2 { color: red; }
+    </style>
 </head>    
 <body>
 
-    <p><?php echo $var ?></p>
-    <pre><?php //print_r($arr) ?></pre>
+    <h2><?php echo $var ?></h2>
     <p><a href="./index.php">Назад</a></p>
     
     <table>
