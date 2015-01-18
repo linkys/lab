@@ -1,0 +1,27 @@
+div {
+    float: left;
+    width: 100px;
+    height: 200px;
+}
+
+#img1 {
+    background-image: url(../img/im1.png);
+}
+#img2 {
+    background-image: url(../img/im2.png);
+}
+#img3 {
+    background-image: url(../img/im3.png);
+}
+#img4 {
+    background-image: url(../img/im4.png);
+}
+#img5 {
+    background-image: url(../img/im5.png);
+}
+#img6 {
+    background-image: url(../img/im6.png);
+}
+#img7 {
+    background-image: url(../img/im7.png);
+}
